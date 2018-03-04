@@ -1,6 +1,6 @@
 # TodoMVC in React
 
-> A Todo app built to show how one would implement an MVC pattern in React. This app will track your TODOs and allows you to complete and delete them. It persists your TODOs in the Browser's LocalStorage
+> A Todo Single Page App built to show how one would implement an MVC pattern in React. This app will track your TODOs and allows you to complete and delete them. It persists your TODOs in the Browser's LocalStorage
 
 ## Resources
 
@@ -19,6 +19,22 @@ The app utilizes [Redux](https://github.com/reactjs/react-redux) in order to kee
 Redux is a go-to implementation of the Flux Architecture and I felt it was important to demonstrate the benefits of it using Redux.
 
 All functionality described in the spec is present.
+
+## Installation Steps
+1. cd to project
+2. ```npm install```
+3. ```npm start```
+
+## Run and Build
+To run the project locally, run ```npm start``` this will build the project and serve it on localhost:8080.
+
+To build the project for production run ```npm run build``` this will build a production ready bundle and output it to the ```/build``` folder. Ultimately you'd have a webserver like ```ngnix``` serve this folder.
+
+## Tests
+Unit Tests should have a postfix of ```.test.js``` and should live in the same folder as the component that they test.
+
+To run the tests run ```npm test```
+
 
 ## Credit
 
