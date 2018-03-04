@@ -8,6 +8,7 @@
 - [Create React App](https://github.com/facebook/create-react-app)
 - [Redux](https://github.com/reactjs/react-redux)
 - [Material-UI](https://material-ui-next.com/)
+- [Flexbox Grid](http://flexboxgrid.com/)
 
 ## Implementation
 
