@@ -1,0 +1,11 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.destroy {
+  display: none;
+}
+
+.todo-container:hover .destroy {
+  display: inherit;
+}
