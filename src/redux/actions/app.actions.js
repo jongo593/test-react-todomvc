@@ -28,7 +28,6 @@ export function deleteTodo(index) {
 }
 
 export function completeTodo(index) {
-    console.log(index)
     return (dispatch) => {
         dispatch({
             type: COMPLETE_TODO,
