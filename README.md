@@ -27,7 +27,7 @@ All functionality described in the spec is present.
 3. ```npm start```
 
 ## Run and Build
-To run the project locally, run ```npm start``` this will build the project and serve it on localhost:8080.
+To run the project locally, run ```npm start``` this will build the project and serve it on localhost:3000.
 
 To build the project for production run ```npm run build``` this will build a production ready bundle and output it to the ```/build``` folder. Ultimately you'd have a webserver like ```ngnix``` serve this folder.
 
